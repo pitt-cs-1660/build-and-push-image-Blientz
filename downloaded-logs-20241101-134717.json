@@ -1,0 +1,1320 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "CreateProject",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318",
+      "request": {
+        "@type": "type.googleapis.com/google.cloudresourcemanager.v1.CreateProjectRequest",
+        "project": {
+          "lifecycleState": "ACTIVE",
+          "projectId": "build-and-push-image-440318",
+          "name": "Build and Push Image",
+          "createTime": "2024-10-31T18:40:05.301741Z",
+          "projectNumber": "291594369712"
+        }
+      }
+    },
+    "insertId": "ogxq9ddz74o",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:06.210176Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T18:40:07.130387918Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/services/cloudapis.googleapis.com"
+    },
+    "insertId": "tr0n8bcsbc",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "",
+        "project_id": "build-and-push-image-440318",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:08.618987Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-291594369712-663b6486-3274-47ed-9f89-6c6a0d29d52e",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-31T18:40:10.723209242Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/build-and-push-image-440318/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "xmuykpd3xqx",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:08.618987Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-291594369712-663b6486-3274-47ed-9f89-6c6a0d29d52e",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-31T18:40:09.832000784Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/291594369712/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/291594369712/operations/acat.p2-291594369712-663b6486-3274-47ed-9f89-6c6a0d29d52e"
+    },
+    "insertId": "d3k865d6kht",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:09.740582Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T18:40:10.639227300Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/291594369712/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/291594369712/operations/acat.p2-291594369712-663b6486-3274-47ed-9f89-6c6a0d29d52e"
+    },
+    "insertId": "1hvrvkudc0vp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:11.243735Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T18:40:11.834304587Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/build-and-push-image-440318/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/291594369712/services/cloudapis.googleapis.com",
+          "config": {
+            "name": "cloudapis.googleapis.com",
+            "title": "Google Cloud APIs"
+          },
+          "state": "ENABLED",
+          "parent": "projects/291594369712"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "a2r5ndfs5k",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:11.307374890Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-291594369712-663b6486-3274-47ed-9f89-6c6a0d29d52e",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-31T18:40:11.307374890Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712/services/cloudapis.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudapis.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/services/cloudapis.googleapis.com",
+      "request": {
+        "name": "projects/build-and-push-image-440318/services/cloudapis.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "cloudapis.googleapis.com",
+          "analyticshub.googleapis.com",
+          "bigquery.googleapis.com",
+          "bigqueryconnection.googleapis.com",
+          "bigquerydatapolicy.googleapis.com",
+          "bigquerymigration.googleapis.com",
+          "bigqueryreservation.googleapis.com",
+          "bigquerystorage.googleapis.com",
+          "cloudtrace.googleapis.com",
+          "dataform.googleapis.com",
+          "dataplex.googleapis.com",
+          "datastore.googleapis.com",
+          "logging.googleapis.com",
+          "monitoring.googleapis.com",
+          "servicemanagement.googleapis.com",
+          "serviceusage.googleapis.com",
+          "sql-component.googleapis.com",
+          "storage-api.googleapis.com",
+          "storage-component.googleapis.com",
+          "storage.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "a2r5ndfs5m",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "build-and-push-image-440318",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:11.307374890Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-291594369712-663b6486-3274-47ed-9f89-6c6a0d29d52e",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-31T18:40:11.307374890Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.43",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudbilling.googleapis.com",
+      "methodName": "AssignResourceToBillingAccount",
+      "authorizationInfo": [
+        {
+          "resource": "billingAccounts/0106D4-647738-59B013",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/build-and-push-image-440318",
+          "permission": "resourcemanager.projects.createBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "billingAccounts/0106D4-647738-59B013",
+          "permission": "billing.resourceAssociations.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/build-and-push-image-440318",
+          "permission": "resourcemanager.projects.deleteBillingAssignment",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318",
+      "request": {
+        "@type": "type.googleapis.com/google.internal.cloudbilling.billingaccount.v1.AssignResourceToBillingAccountRequest",
+        "billingAccountName": "billingAccounts/0106D4-647738-59B013",
+        "resourceName": "projects/291594369712"
+      }
+    },
+    "insertId": "-c771nxdnvha",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:40:11.501750Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T18:40:13.023937907Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/65ab603391cf4a62bf6848cb6724c339 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/build-and-push-image-440318/services/artifactregistry.googleapis.com"
+      }
+    },
+    "insertId": "xci7tdd6aue",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-image-440318",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-31T18:56:20.149341Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-291594369712-3a7fef4e-bc84-4099-bb1a-029f65c7858d",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-31T18:56:20.942378874Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/65ab603391cf4a62bf6848cb6724c339 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/291594369712/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/291594369712/operations/acat.p2-291594369712-3a7fef4e-bc84-4099-bb1a-029f65c7858d"
+    },
+    "insertId": "1hvrvkudc332",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:56:20.792794Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T18:56:21.538090913Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/65ab603391cf4a62bf6848cb6724c339 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/build-and-push-image-440318/services/artifactregistry.googleapis.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "config": {
+            "title": "Artifact Registry API",
+            "name": "artifactregistry.googleapis.com"
+          },
+          "parent": "projects/291594369712",
+          "state": "ENABLED",
+          "name": "projects/291594369712/services/artifactregistry.googleapis.com"
+        }
+      }
+    },
+    "insertId": "-9xenjmdgwme",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-image-440318",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-31T18:56:22.299263348Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-291594369712-3a7fef4e-bc84-4099-bb1a-029f65c7858d",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-31T18:56:22.299263348Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/65ab603391cf4a62bf6848cb6724c339 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/291594369712/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/291594369712",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/291594369712/operations/acat.p2-291594369712-3a7fef4e-bc84-4099-bb1a-029f65c7858d"
+    },
+    "insertId": "rr3p0pd492z",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:56:23.591348Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T18:56:24.064827621Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/65ab603391cf4a62bf6848cb6724c339 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T18:56:30.844204179Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-image-440318/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/locations/us-central1",
+      "request": {
+        "parent": "projects/build-and-push-image-440318/locations/us-central1",
+        "repositoryId": "build-push-repo",
+        "repository": {
+          "name": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+          "format": "DOCKER"
+        },
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "15ei0acd2qbm",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-image-440318",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T18:56:30.834758259Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/build-and-push-image-440318/locations/us-central1/operations/a531593d-9802-4023-a747-6bc9ffa04c14",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-31T18:56:31.731307285Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-image-440318",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-image-440318",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/build-and-push-image-440318",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/build-and-push-image-440318",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-291594369712@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "291594369712",
+        "policy": {
+          "etag": "BwYlyiWgu8c=",
+          "bindings": [
+            {
+              "members": [
+                "user:blientz44@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "members": [
+                "serviceAccountId:106120995462185674791"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            }
+          ]
+        }
+      },
+      "response": {
+        "etag": "BwYlymBzjPw=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-291594369712@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "user:blientz44@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ]
+      }
+    },
+    "insertId": "ve3wzbe26d9q",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T18:56:31.738092Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T18:56:32.818799753Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "generic::invalid_argument: Request contains an invalid argument."
+      },
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo"
+    },
+    "insertId": "4fyc6cd1iyu",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-image-440318",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-10-31T18:56:40.045062220Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/build-and-push-image-440318/locations/us-central1/operations/a531593d-9802-4023-a747-6bc9ffa04c14",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-31T18:56:40.870967773Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/d94fbaa5bc0043ab928ad13561301324 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T19:00:19.438072936Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-image-440318/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/locations/us-central1",
+      "request": {
+        "repositoryId": "build-push-repo",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "parent": "projects/build-and-push-image-440318/locations/us-central1",
+        "repository": {
+          "format": "DOCKER",
+          "name": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "6obupwd2jvq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T19:00:19.423390725Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/build-and-push-image-440318/locations/us-central1/operations/282ec275-1046-4a4a-be04-a04f2f16e58f",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-31T19:00:19.632565189Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+      "response": {
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "format": "DOCKER",
+        "mode": "STANDARD_REPOSITORY",
+        "name": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-10-31T19:00:19.451336815Z"
+        },
+        "sbomConfig": {},
+        "description": "Project 3 1660"
+      }
+    },
+    "insertId": "5lszl5dg7ni",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-image-440318",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T19:00:20.272962180Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/build-and-push-image-440318/locations/us-central1/operations/282ec275-1046-4a4a-be04-a04f2f16e58f",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-31T19:00:20.329096918Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/59bc3fae42ca4611bf116730b392d831 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T19:47:07.756522961Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-image-440318/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/locations/global",
+      "request": {
+        "parent": "projects/build-and-push-image-440318/locations/global",
+        "workloadIdentityPoolId": "github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "qo5xghd7kfw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "project_id": "build-and-push-image-440318",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T19:47:07.745191652Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/291594369712/locations/global/workloadIdentityPools/github/operations/bigarpf5r64qmegiwdskoai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-31T19:47:08.921824098Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/build-and-push-image-440318/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/291594369712/locations/global/workloadIdentityPools/github/operations/bigarpf5r64qmegiwdskoai000000000"
+      }
+    },
+    "insertId": "ezoeyrc83u",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-image-440318",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-31T19:47:08.352654Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/291594369712/locations/global/workloadIdentityPools/github/operations/bigarpf5r64qmegiwdskoai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-31T19:47:08.591028549Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.231.24.119",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/e0e15066c0194fb197e508f7aed8d8bd environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T19:54:19.835030694Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-image-440318/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/locations/global/workloadIdentityPools/github",
+      "request": {
+        "parent": "projects/build-and-push-image-440318/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "workloadIdentityPoolProvider": {
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "My GitHub repo Provider",
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          }
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "17clz00d7b0w",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T19:54:19.815729773Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/291594369712/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bifqr3gar64qmeeiytchc00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-31T19:54:20.717117126Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/build-and-push-image-440318/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/291594369712/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bifqr3gar64qmeeiytchc00000000000"
+      }
+    },
+    "insertId": "-r5rvktc5d0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "build-and-push-image-440318"
+      }
+    },
+    "timestamp": "2024-10-31T19:54:20.239228Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/291594369712/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bifqr3gar64qmeeiytchc00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-31T19:54:20.357369580Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Role roles/something.special is not supported for this resource."
+      },
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "104.196.110.204",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/2b2a96226dd147769859dc77c34fa229 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-01T17:14:25.855531674Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo"
+      }
+    },
+    "insertId": "15nkkmld2v38",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "build-and-push-image-440318",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-11-01T17:14:25.844532663Z",
+    "severity": "ERROR",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-01T17:14:26.781756185Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "blientz44@gmail.com",
+        "principalSubject": "user:blientz44@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "104.196.110.204",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/499.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/5d20408ee92046b6866f1d582471a5bb environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-11-01T17:15:16.735543050Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+      "request": {
+        "resource": "projects/build-and-push-image-440318/locations/us-central1/repositories/build-push-repo",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "5jy14vcfzj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "build-and-push-image-440318",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-11-01T17:15:16.728884661Z",
+    "severity": "NOTICE",
+    "logName": "projects/build-and-push-image-440318/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-11-01T17:15:17.415304285Z"
+  }
+]
